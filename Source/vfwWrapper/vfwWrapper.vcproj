@@ -202,7 +202,7 @@
 			IntermediateDirectory="Release"
 			ConfigurationType="2"
 			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops"
-			CharacterSet="2"
+			CharacterSet="1"
 			>
 			<Tool
 				Name="VCPreBuildEventTool"
@@ -251,7 +251,7 @@
 				AdditionalDependencies="vfw32.lib"
 				OutputFile="$(OutDir)/vfwWrapper.dll"
 				LinkIncremental="1"
-				AdditionalLibraryDirectories="$(DXDSBASECLASSES)/release,$(MSSDK)/lib,$(DXSDKROOT)/lib"
+				AdditionalLibraryDirectories=""
 				ModuleDefinitionFile=".\VideoForWindowsFilter.def"
 				GenerateDebugInformation="false"
 				SubSystem="2"
@@ -293,7 +293,7 @@
 			IntermediateDirectory="$(PlatformName)\$(ConfigurationName)"
 			ConfigurationType="2"
 			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops"
-			CharacterSet="2"
+			CharacterSet="1"
 			>
 			<Tool
 				Name="VCPreBuildEventTool"
@@ -343,7 +343,7 @@
 				AdditionalDependencies="vfw32.lib"
 				OutputFile="$(OutDir)/vfwWrapper.dll"
 				LinkIncremental="1"
-				AdditionalLibraryDirectories="$(DXDSBASECLASSES)/release,$(MSSDK)/lib,$(DXSDKROOT)/lib"
+				AdditionalLibraryDirectories=""
 				ModuleDefinitionFile=".\VideoForWindowsFilter.def"
 				GenerateDebugInformation="false"
 				SubSystem="2"
