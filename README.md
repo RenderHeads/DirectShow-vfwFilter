@@ -1,5 +1,4 @@
-#VFW DirectShow Filter
-VFW Video Compression Wrapper Filter for DirectShow
+#VFW Video Codec DirectShow Filter
 
 ![alt tag](Docs/graph.png)
 
