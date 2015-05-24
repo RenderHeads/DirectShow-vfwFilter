@@ -11,5 +11,4 @@ Usually (in 32-bit apps) when DirectShow enumerates filters it also include lega
 
 ##Build
 Compiler: Visual Studio 2008
-
 Installer: NSIS
