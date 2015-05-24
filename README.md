@@ -11,3 +11,5 @@ Usually (in 32-bit apps) when DirectShow enumerates filters it also include lega
 CLSID_VideoCompressorCategory 
 
 It uses the filter 'AVI Compressor' to wrap the functions of the VFW codesc.
+
+![alt tag](Docs/graph.png)
