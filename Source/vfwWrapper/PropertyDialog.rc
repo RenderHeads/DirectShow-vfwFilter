@@ -101,7 +101,7 @@ END
 
 STRINGTABLE 
 BEGIN
-    IDS_TITLE               "Title here"
+    IDS_TITLE               "VFW Video Compressor"
 END
 
 #endif    // English (U.K.) resources

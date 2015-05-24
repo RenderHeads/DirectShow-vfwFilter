@@ -114,7 +114,7 @@
 			IntermediateDirectory="$(PlatformName)\$(ConfigurationName)"
 			ConfigurationType="2"
 			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops"
-			CharacterSet="2"
+			CharacterSet="1"
 			>
 			<Tool
 				Name="VCPreBuildEventTool"
@@ -135,7 +135,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="&quot;$(DXSDKROOT)/include&quot;;&quot;$(DXDSBASECLASSES)&quot;;&quot;$(MSSDK)/include&quot;,"
+				AdditionalIncludeDirectories="../External/DirectShow/BaseClasses"
 				PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_USRDLL"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -226,7 +226,7 @@
 				EnableIntrinsicFunctions="true"
 				FavorSizeOrSpeed="1"
 				OmitFramePointers="true"
-				AdditionalIncludeDirectories="&quot;$(DXSDKROOT)/include&quot;;&quot;$(DXDSBASECLASSES)&quot;;&quot;$(MSSDK)/include&quot;,"
+				AdditionalIncludeDirectories="../External/DirectShow/BaseClasses"
 				PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_USRDLL"
 				RuntimeLibrary="0"
 				BufferSecurityCheck="false"
@@ -318,7 +318,7 @@
 				EnableIntrinsicFunctions="true"
 				FavorSizeOrSpeed="1"
 				OmitFramePointers="true"
-				AdditionalIncludeDirectories="&quot;$(DXSDKROOT)/include&quot;;&quot;$(DXDSBASECLASSES)&quot;;&quot;$(MSSDK)/include&quot;,"
+				AdditionalIncludeDirectories="../External/DirectShow/BaseClasses"
 				PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_USRDLL"
 				RuntimeLibrary="0"
 				BufferSecurityCheck="false"

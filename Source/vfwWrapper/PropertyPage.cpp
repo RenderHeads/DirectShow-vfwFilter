@@ -92,7 +92,7 @@ void PropertyPage::SetDirty()
 	EnableWindow(m_configButton, m_pHDvRtpOutFilter->HasConfigWindow(sDestAddr));
 }
 
-BOOL PropertyPage::OnReceiveMessage(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
+INT_PTR PropertyPage::OnReceiveMessage(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 {
 	switch (uMsg) {
 	case WM_INITDIALOG:
